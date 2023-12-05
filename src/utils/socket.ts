@@ -13,7 +13,7 @@ import { SERVER_STATUS_CODE } from '~/constants/statuses'
 export const initialSocket = (httpServer: ServerHttp) => {
   const io = new Server(httpServer, {
     cors: {
-      origin: ['http://localhost:3000', 'http://localhost:3001']
+      origin: ['http://47.128.152.139:3000/']
     }
   })
 
